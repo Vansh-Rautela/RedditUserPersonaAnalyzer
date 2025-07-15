@@ -1,0 +1,37 @@
+Analyze the following Reddit user data and generate a detailed persona.
+
+**User:** {username}
+
+**Recent Posts Summary:**
+{posts_summary}
+
+**Recent Comments Summary:**
+{comments_summary}
+
+---
+
+**Persona Analysis:**
+
+**1. Demographics (Estimated)**
+   - Age Range:
+   - Gender:
+   - Location:
+   - Occupation/Field:
+   - Education Level:
+
+**2. Psychographics & Personality**
+   - Hobbies & Interests:
+   - Personality Traits (e.g., Myers-Briggs, Big Five):
+   - Values & Beliefs:
+   - Communication Style:
+
+**3. Online Behavior**
+   - Active Subreddits:
+   - Posting Frequency & Times:
+   - Level of Engagement (e.g., lurker, commenter, poster):
+   - Sentiment (e.g., positive, negative, neutral):
+
+**4. Key Insights & Summary**
+   - Provide a brief summary of the user's persona.
+   - What are their likely motivations for using Reddit?
+   - What kind of products or services might they be interested in?

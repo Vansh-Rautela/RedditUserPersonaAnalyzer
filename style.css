@@ -1,0 +1,95 @@
+/* General Body Styles */
+body {
+    color: #E0E0E0;
+    background-color: #121212;
+}
+
+/* Main content area */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+}
+
+/* Sidebar Styles */
+[data-testid="stSidebar"] {
+    background-color: #181818;
+    border-right: 1px solid #282828;
+}
+
+/* Titles and Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+h3 {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    color: #121212;
+    font-weight: bold;
+    padding: 10px 24px;
+    transition: all 0.2s;
+}
+.stButton>button:hover {
+    background-color: #E0E0E0;
+    border-color: #E0E0E0;
+}
+
+/* Download Buttons */
+.stDownloadButton>button {
+    border-radius: 20px;
+    border: 1px solid #535353;
+    background-color: transparent;
+    color: #B3B3B3;
+    transition: all 0.2s;
+}
+.stDownloadButton>button:hover {
+    background-color: #282828;
+    color: #FFFFFF;
+    border-color: #282828;
+}
+
+/* Text Input */
+.stTextInput>div>div>input {
+    border-radius: 8px;
+    border: 1px solid #535353;
+    background-color: #181818;
+    color: #FFFFFF;
+}
+.stTextInput>div>div>input:focus {
+    border-color: #FFFFFF;
+    box-shadow: 0 0 0 1px #FFFFFF;
+}
+
+/* Radio buttons for navigation */
+.stRadio>label {
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+    border: 1px solid transparent;
+}
+.stRadio>label:hover {
+    background-color: #282828;
+}
+/* Style for selected radio button */
+.stRadio>div[role="radiogroup"]>label[data-baseweb="radio"]>div:first-of-type[aria-checked="true"] {
+    background-color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
+.stRadio>div[role="radiogroup"]>label[data-baseweb="radio"]>div:first-of-type[aria-checked="true"]+div {
+    color: #121212 !important;
+    font-weight: bold;
+}
+
+/* Container styling for activity feed */
+div[data-testid="stVerticalBlock"]>div[style*="flex-direction: column;"]>div[data-testid="stVerticalBlock"] {
+    border: 1px solid #282828;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
